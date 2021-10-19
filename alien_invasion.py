@@ -66,7 +66,7 @@ class AlienInvasion:
         self.screen.fill(self.bg_color)
         self.ship.blitme()
         for bullet in self.bullets.sprites():
-            bullet.draw_bullet
+            bullet.draw_bullet()
         pygame.display.flip()
 
     
